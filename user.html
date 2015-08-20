@@ -1,0 +1,248 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>商城首页</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link rel="stylesheet" href="styles/index.css" />
+</head>
+<body>
+<div class="header">
+	<div class="container">
+		太原移动商城
+		<ul class="flex fr header-r">
+			<li>一个城市,一个梦想 欢迎来到 商城</li>
+			<li><a href="#"> [登录] </a></li>
+			<li class="reg"><a href="#"> [免费注册] </a></li>
+		</ul>
+	</div>
+</div>
+<div class="nav">
+	<a href="#"><div class="nav-logo"></div></a>
+	<ul class="flex">
+		<li><a class="active" href="#">榆次商城</a></li>
+		<li><a href="#">秒杀专场</a></li>
+		<li><a href="#">精品特区</a></li>
+	</ul>
+	<div class="nav-search">
+		<input type="text" placeholder="请输入你想买的商品名称" />
+		<input class="search-submit" type="submit" value="" />
+	</div>
+</div>
+<div class="crumb container">
+	<a href="index.html">首页</a>><a href="#">个人中心</a>><a href="#">我的个人中心</a>><a href="#">耳挂式</a>><a href="">铁三角系列</a>
+</div>
+<div class="container minH500 flex">
+	<dl class="container-l userMenu">
+		<dt>个人中心</dt>
+		<dd class="active"><a href="#">我的个人中心</a></dd>
+		<dd><a href="order.html">我的订单</a></dd>
+		<dd><a href="#">我的收藏</a></dd>
+		<dd><a href="#">我的</a></dd>
+		<dd><a href="#">我的</a></dd>
+	</dl>
+	<div class="container-r userCon">
+		<div class="slideTxtBox">
+			<div class="hd">
+				<ul><li>基本信息</li><li>安全中心</li><li>收货地址</li></ul>
+			</div>
+			<div class="bd">
+				<ul class="userInfo">
+					<li>
+						<div id="preview"><img id="imghead" width=100 height=100 border=0 src='images/bottom_mao.jpg'></div>
+						<input class="inputfile" type="file" onchange="previewImage(this)" />
+						<div class="inputfile_btn">上传头像</div>
+					</li>
+					<li class="flex"><div class="userItemName">用户名：</div><input type="text" /></li>
+					<li class="flex"><div class="userItemName">手机号：</div><input type="text" /></li>
+					<li class="flex"><div class="userItemName">邮箱：</div><input type="text" /></li>
+					<li class="flex">
+						<div class="userItemName">性别：</div>
+						<label><input type="radio" name="sex" />保密</label>
+						<label><input type="radio" name="sex" />男</label>
+						<label><input type="radio" name="sex" />女</label>
+					</li>
+					<li>
+						 <input class="userInfoUp" type="submit" value="保存" />
+					</li>
+				</ul>
+				<ul class="userSafe">
+					<li class="flex">
+						<div class="userSafeName">登录密码</div>
+						<div class="userSafeLevel">等级中</div>
+						<div class="userSafeDetail">提升密码安全程度到强，保护您的账号安全</div>
+						<div class="userEdit">修改</div>
+					</li>
+					<li class="flex">
+						<div class="userSafeName">手 机 号</div>
+						<div class="userSafeLevel">已设置</div>
+						<div class="userSafeDetail">您验证的手机：13333333333</div>
+						<div class="userEdit">换绑</div>
+					</li>
+					<li class="flex">
+						<div class="userSafeName">邮　　箱</div>
+						<div class="userSafeLevel">未设置</div>
+						<div class="userSafeDetail">绑定邮箱，帮助您找回密码，保护您的账号安全</div>
+						<div class="userEdit">立即设置</div>
+					</li>
+					<li class="flex">
+						<div class="userSafeName">支付密码</div>
+						<div class="userSafeLevel">未设置</div>
+						<div class="userSafeDetail">为了保护您的账号安全，请设置您的支付密码，在余额支付时使用</div>
+						<div class="userEdit">立即设置</div>
+					</li>
+					<li class="flex">
+						<div class="userSafeName">安全问题</div>
+						<div class="userSafeLevel">未设置</div>
+						<div class="userSafeDetail">设置您的安全问题，方便您修改您的支付密码</div>
+						<div class="userEdit">立即设置</div>
+					</li>
+				</ul>
+				<div class="address">
+					<div class="addressName">管理收货地址<botton class="addressAdd">添加</botton></div>
+					<ul class="addressItem flex">
+						<li class="address_name">
+							<div class="address_limit">收货人姓名</div>
+							<div>黄志军</div>
+						</li>
+						<li class="address_phone">
+							<div class="address_limit">联系方式</div>
+							<div>13542695875</div>
+						</li>
+						<li class="address_detail">
+							<div class="address_limit">地址</div>
+							<div>山西省太原市迎泽区万邦国际1230</div>
+						</li>
+						<li class="address_pc">
+							<div class="address_limit">邮编</div>
+							<div>030000</div>
+						</li>
+						<li class="address_edit">修改</li>
+					</ul>
+					<ul class="addressItem flex">
+						<li class="address_name">
+							<div class="address_limit">收货人姓名</div>
+							<div>黄志军</div>
+						</li>
+						<li class="address_phone">
+							<div class="address_limit">联系方式</div>
+							<div>13542695875</div>
+						</li>
+						<li class="address_detail">
+							<div class="address_limit">地址</div>
+							<div>山西省太原市迎泽区万邦国际1230</div>
+						</li>
+						<li class="address_pc">
+							<div class="address_limit">邮编</div>
+							<div>030000</div>
+						</li>
+						<li class="address_edit">修改</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+<div class="footer">
+	<div class="container">
+		<div class="footer-logoBg">
+			<div class="footer-logo"><a href="#"><img src="images/bottom_logo.png" alt=""></a></div>
+		</div>
+		<div class="footer-city"></div>
+		<div class="ill flex">
+			<dl>
+				<dt><a href="#">商城服务</a></dt>
+				<dd><a href="#">免费注册</a></dd>
+				<dd><a href="#">城市名片</a></dd>
+				<dd><a href="#">售后规则</a></dd>
+				<dd><a href="#">缺货赔付</a></dd>
+				<dd><a href="#">用户反馈</a></dd>
+			</dl>
+			<dl>
+				<dt><a href="#">商家服务</a></dt>
+				<dd><a href="#">商家入驻</a></dd>
+				<dd><a href="#">品牌策划</a></dd>
+				<dd><a href="#">商家中心</a></dd>
+				<dd><a href="#">商城规则</a></dd>
+				<dd><a href="#">商家推广</a></dd>
+				<dd><a href="#">运营服务</a></dd>
+			</dl>
+			<dl>
+				<dt><a href="#">商城服务</a></dt>
+				<dd><a href="#">免费注册</a></dd>
+				<dd><a href="#">城市名片</a></dd>
+				<dd><a href="#">售后规则</a></dd>
+				<dd><a href="#">缺货赔付</a></dd>
+				<dd><a href="#">用户反馈</a></dd>
+			</dl>
+			<dl>
+				<dt><a href="#">商家服务</a></dt>
+				<dd><a href="#">商家入驻</a></dd>
+				<dd><a href="#">品牌策划</a></dd>
+				<dd><a href="#">商家中心</a></dd>
+				<dd><a href="#">商城规则</a></dd>
+				<dd><a href="#">商家推广</a></dd>
+				<dd><a href="#">运营服务</a></dd>
+			</dl>
+		</div>
+	</div>
+	<div class="copy">©2014 广州沃城信商信息科技有限公司 粤ICP备14050684号-2</div>
+</div>
+</body>
+<script src="http://libs.baidu.com/jquery/1.8.3/jquery.min.js"></script>
+<script src="plugins/SuperSlide/jquery.SuperSlide.2.1.1.js"></script>
+<script type="text/javascript">
+jQuery(".slideTxtBox").slide({trigger:"click"});
+//图片上传预览    IE是用了滤镜。
+function previewImage(file){
+	var MAXWIDTH  = 260;
+	var MAXHEIGHT = 180;
+	var div = document.getElementById('preview');
+	if (file.files && file.files[0]){
+		div.innerHTML ='<img id=imghead>';
+		var img = document.getElementById('imghead');
+		img.onload = function(){
+			var rect = clacImgZoomParam(MAXWIDTH, MAXHEIGHT, img.offsetWidth, img.offsetHeight);
+			img.width  =  rect.width;
+			img.height =  rect.height;
+			// img.style.marginLeft = rect.left+'px';
+			img.style.marginTop = rect.top+'px';
+		}
+		var reader = new FileReader();
+		reader.onload = function(evt){img.src = evt.target.result;}
+		reader.readAsDataURL(file.files[0]);
+	}
+	else{//兼容IE
+		var sFilter='filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=scale,src="';
+		file.select();
+		var src = document.selection.createRange().text;
+		div.innerHTML = '<img id=imghead>';
+		var img = document.getElementById('imghead');
+		img.filters.item('DXImageTransform.Microsoft.AlphaImageLoader').src = src;
+		var rect = clacImgZoomParam(MAXWIDTH, MAXHEIGHT, img.offsetWidth, img.offsetHeight);
+		status =('rect:'+rect.top+','+rect.left+','+rect.width+','+rect.height);
+		div.innerHTML = "<div id=divhead style='width:"+rect.width+"px;height:"+rect.height+"px;margin-top:"+rect.top+"px;"+sFilter+src+"\"'></div>";
+	}
+}
+function clacImgZoomParam( maxWidth, maxHeight, width, height ){
+	var param = {top:0, left:0, width:width, height:height};
+	if( width>maxWidth || height>maxHeight ){
+		rateWidth = width / maxWidth;
+		rateHeight = height / maxHeight;
+		if( rateWidth > rateHeight ){
+			param.width =  maxWidth;
+			param.height = Math.round(height / rateWidth);
+		}else{
+			param.width = Math.round(width / rateHeight);
+			param.height = maxHeight;
+		}
+	}
+	param.left = Math.round((maxWidth - param.width) / 2);
+	param.top = Math.round((maxHeight - param.height) / 2);
+	return param;
+}
+</script>
+</html>
